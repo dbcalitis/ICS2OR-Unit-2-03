@@ -13,7 +13,7 @@ function openbox() {
   }
   else {
     document.getElementById('img1').src = "./images/closedbox.png"
-    document.getElementById('background').style.backgroundColor = "sienna";
+    document.getElementById('background').style.backgroundColor = "blue";
     document.getElementById('h1').textContent = "Open Me!";
     document.getElementById('box').textContent = "Open";
     document.getElementById('h2').style.display = "none";
