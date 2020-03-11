@@ -1,6 +1,6 @@
 // JavaScript File
 
-function openclosebox() {
+function openbox() {
   if (document.getElementById('box').textContent == "Open") {
     document.getElementById('img1').src = "./images/openedbox.png"
     document.getElementById('background').style.backgroundColor = "lightblue";
@@ -22,4 +22,3 @@ function openclosebox() {
     console.log("You closed the box!")
   }
 }
-
